@@ -1,7 +1,7 @@
 #include <studio.h>
 /**
- * main - Serves as the entry point for the program
- * Return 0
+ * main -(Serves as the entry point for the program)
+ * Return (0)
  */ 
 int main void(void)
 {
