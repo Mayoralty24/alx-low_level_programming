@@ -1,10 +1,10 @@
-#include <studio.h>
+#include <stdio.h>
 /**
- * main -(Serves as the entry point for the program)
- * Return (0)
- */ 
-int main void(void)
+ * main - main block
+ * Return: 0
+ */
+int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzles!\n");
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
