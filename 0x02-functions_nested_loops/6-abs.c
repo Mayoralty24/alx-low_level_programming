@@ -1,29 +1,16 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
- * print_sign - return 0 letter not lowercase, 1 letter lowercase
- *
- * @n : number to check
- * Return: 0 or 1
+ * _abs - function that computes the absolute value of an integer
+ * @c:  is the int that will use for the argument of the function
+ * Return: 0
  */
-int print_sign(int n)
+int _abs(int c)
 {
-	int test;
-
-	if (n > 0)
+	if (c > 0 || c == 0)
 	{
-	test = 1;
-	_putchar('+');
-	}
-	else if (n == 0)
-	{
-	test = 0;
-	_putchar('0');
+	return (c);
 	}
 	else
-	{
-	test = -1;
-	_putchar('-');
-	}
-	return (test);
+	return (c * -1);
 }
