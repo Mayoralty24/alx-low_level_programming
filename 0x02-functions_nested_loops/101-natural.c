@@ -6,6 +6,7 @@
  * Return: 0.
  */
 int main(void)
+
 {
 	int c = 0;
 	int sum = 0;
