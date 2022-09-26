@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- :wq!
  * set_string - sets the value of a pointer to a char
  * @s: content is to be copied
  * @to: string
