@@ -1,28 +1,17 @@
 #include "main.h"
-
 /**
- * clear_bit - sets the value of a bit to 0 at given index.
- * @n: pointer of type unsigned long int.
- * @index: index of the bit to modify.
- * Return: 1 if it worked, -1 if an erorr occurred.
- */
-
+  * clear_bit - sets the value of a bit to 0 at a given index
+  * @n: unsigned long to change
+  * @index: index to change to zero
+  * Return: 1 if it worked or -1 if an error occurred
+  */
 int clear_bit(unsigned long int *n, unsigned int index)
 {
-	unsigned int left_shift;
+	int clear;
 
-	if (index > 64)
-	{
+	if (index > 53 || !n)
 		return (-1);
-	}
-
-	left_shift = 1 << index;
-
-	if (*n & left_shift)
-	{
-		*n ^= left_shift;
-	}
-
+	clear = 1 << index;
+	*n = (*n & ~clear) | ((0 << index) & clear);
 	return (1);
-	
 }
