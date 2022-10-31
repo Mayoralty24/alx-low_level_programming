@@ -1,6 +1,6 @@
-:/*
+/*
  * File: 100-elf_header.c
- * Auth: Suara Ayomide
+ * Auth: Brennan D Baraban
  */
 
 #include <elf.h>
